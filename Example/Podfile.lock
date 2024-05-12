@@ -1,0 +1,104 @@
+PODS:
+  - Ads-CN (5.9.1.6):
+    - Ads-CN/BUAdSDK (= 5.9.1.6)
+  - Ads-CN/BUAdSDK (5.9.1.6)
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - BaiduMobAdSDK (5.34)
+  - GDTMobSDK (4.14.76):
+    - GDTMobSDK/GDTMobSDK (= 4.14.76)
+  - GDTMobSDK/GDTMobSDK (4.14.76)
+  - KSAdSDK (3.3.61)
+  - LookinServer (1.2.8):
+    - LookinServer/Core (= 1.2.8)
+  - LookinServer/Core (1.2.8)
+  - Masonry (1.1.0)
+  - SDWebImage (5.19.2):
+    - SDWebImage/Core (= 5.19.2)
+  - SDWebImage/Core (5.19.2)
+  - YFAdsSDK (0.1.0):
+    - AFNetworking
+    - YFAdsSDK/Core (= 0.1.0)
+    - YFAdsSDK/YFBDSDK (= 0.1.0)
+    - YFAdsSDK/YFCSJSDK (= 0.1.0)
+    - YFAdsSDK/YFKSSDK (= 0.1.0)
+    - YFAdsSDK/YFYLHSDK (= 0.1.0)
+  - YFAdsSDK/Core (0.1.0):
+    - AFNetworking
+  - YFAdsSDK/YFBDSDK (0.1.0):
+    - AFNetworking
+    - YFAdsSDK/YFBDSDK/BaiduMobAdSDK (= 0.1.0)
+  - YFAdsSDK/YFBDSDK/BaiduMobAdSDK (0.1.0):
+    - AFNetworking
+    - BaiduMobAdSDK (= 5.34)
+    - YFAdsSDK/Core
+  - YFAdsSDK/YFCSJSDK (0.1.0):
+    - AFNetworking
+    - YFAdsSDK/YFCSJSDK/BaiduMobAdSDK (= 0.1.0)
+  - YFAdsSDK/YFCSJSDK/BaiduMobAdSDK (0.1.0):
+    - Ads-CN (= 5.9.1.6)
+    - AFNetworking
+    - YFAdsSDK/Core
+  - YFAdsSDK/YFKSSDK (0.1.0):
+    - AFNetworking
+    - YFAdsSDK/YFKSSDK/BaiduMobAdSDK (= 0.1.0)
+  - YFAdsSDK/YFKSSDK/BaiduMobAdSDK (0.1.0):
+    - AFNetworking
+    - KSAdSDK (= 3.3.61)
+    - YFAdsSDK/Core
+  - YFAdsSDK/YFYLHSDK (0.1.0):
+    - AFNetworking
+    - YFAdsSDK/YFYLHSDK/BaiduMobAdSDK (= 0.1.0)
+  - YFAdsSDK/YFYLHSDK/BaiduMobAdSDK (0.1.0):
+    - AFNetworking
+    - GDTMobSDK (= 4.14.76)
+    - YFAdsSDK/Core
+
+DEPENDENCIES:
+  - LookinServer
+  - Masonry
+  - SDWebImage
+  - YFAdsSDK (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Ads-CN
+    - AFNetworking
+    - BaiduMobAdSDK
+    - GDTMobSDK
+    - KSAdSDK
+    - LookinServer
+    - Masonry
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  YFAdsSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Ads-CN: 3ff100f798812f564a68bddeb6a0b19fe88999c6
+  AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
+  BaiduMobAdSDK: debcb4e54e00b461ae6b8f6fb8ee232d872cb42e
+  GDTMobSDK: 037a4e91a91d277d7864fa0f413599acecc6e8f4
+  KSAdSDK: 7754afd132df893c0c7a493fa878cbee7af6ff3c
+  LookinServer: 1b2b61c6402ae29fa22182d48f5cd067b4e99e80
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SDWebImage: dfe95b2466a9823cf9f0c6d01217c06550d7b29a
+  YFAdsSDK: a91b5ebdf8360e230216e4b8658dca1fb6d29e38
+
+PODFILE CHECKSUM: a2521a045e5cdaa382bf596ca8aaa4f6ab0765bc
+
+COCOAPODS: 1.12.1
